@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Code Hunt</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://cdn.pixabay.com/photo/2019/06/23/19/15/bitcoin-4294492_1280.png"/>
+    <link rel="stylesheet" href="treasurehunt.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 id="top-page">Bitcoin Treasure Hunt</h1>
+    <h2>Are you worthy of cryptocurrency?</h2>
+    <img id="bitcoin" src="https://live.staticflickr.com/1808/41977902905_2cf945318f_b.jpg" height="300px" />
+    <hr>
+    <p>Rules of the game :</p>
+    <ul>
+      <li>Rule 1: Search for the bitcoin by clicking on the squares</li>
+      <li>Rule 2: Avoid the bomb or you lose the game </li>
+      <li>Rule 3: Find the bitcoin before you run out of turns to win</li>
+    </ul>
+
+    <table id="table">
+      <tr>
+        <td id=0 onclick="treasure(0)">&#8383</td>
+        <td id=1 onclick="treasure(1)">&#8383</td>
+        <td id=2 onclick="treasure(2)">&#8383</td>
+      </tr>
+      <tr>
+        <td id=3 onclick="treasure(3)">&#8383</td>
+        <td id=4 onclick="treasure(4)">&#8383</td>
+        <td id=5 onclick="treasure(5)">&#8383</td>
+      </tr>
+      <tr>
+        <td id=6 onclick="treasure(6)">&#8383</td>
+        <td id=7 onclick="treasure(7)">&#8383</td>
+        <td id=8 onclick="treasure(8)">&#8383</td>
+      </tr>
+    </table>
+    <p id="winOrLose"></p>
+    <br>
+    <h3>Turns remaining: <span id="counter"></span></h3>
+    <br>
+
+
+    <button type="button" onclick="location.reload()">Restart Game</button>
+    <footer><br>
+
+
+  <a href="#top-page">Top of Page</a>
+  <a href="https://www.learnacademy.org/jumpstart/"
+  target="_blank">LearnAcademy/JumpStart</a>
+  </footer>
+  <script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+
+</html>

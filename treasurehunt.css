@@ -1,0 +1,116 @@
+h1 {
+  color: gold;
+  font-family: 'Indie Flower', cursive;
+  padding: 20px;
+  text-shadow: 1px 1px #f3722c;
+  text-align: center;
+  animation: bounceIn 4s;
+}
+
+h2{
+  color: antiquewhite;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 2px 2px black;
+}
+body {
+  background-color: #161a1d;
+  text-align: center;
+  justify-content: center;
+  background-image: url(https://cdn.pixabay.com/photo/2018/06/01/15/38/blockchain-3446557_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  border: 2px dotted antiquewhite;
+  color: gold;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  font-weight: bolder;
+  text-shadow: 1px 1px #f3722c;
+  background-color: black;
+  opacity: 0.9;
+}
+
+ul{
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align:center;
+  list-style-position: inside;
+  color: antiquewhite;
+  background-color: black;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  table-layout: fixed;
+  width: 400px;
+}
+
+th, td {
+  font-size: 80px;
+  padding: 10px;
+  text-align: center;
+  height: 70px;
+  border-left: 2px solid gold;
+  border-right: 2px solid gold;
+  border-top: 2px solid gold;
+  border-bottom: 2px solid gold;
+  background-color: antiquewhite;
+  opacity: 0.9;
+}
+/* class selector - many elements */
+.blue {
+  color: skyblue;
+}
+
+/* id selector - only one element */
+#warning {
+  color: red;
+}
+
+/* psuedo-selector - targets the state of an element */
+td:hover {
+  color: orange;
+  background-color: #e9d8a6;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+h3{
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: antiquewhite;
+  background-color: black;
+  opacity: 0.9;
+}
+
+button{
+  color: gold;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: black;
+  text-shadow: 1px 1px #f3722c;
+  border-left: 2px solid gold;
+  border-right: 2px solid gold;
+  border-top: 2px solid gold;
+  border-bottom: 2px solid gold;
+}
